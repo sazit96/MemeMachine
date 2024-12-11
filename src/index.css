@@ -148,6 +148,30 @@ main {
   bottom: 10%;
 }
 
+button.download-btn {
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(255, 65, 108, 0.5);
+  transition: all 0.3s ease;
+}
+
+button.download-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(255, 65, 108, 0.7);
+}
+
+button.download-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 10px rgba(255, 65, 108, 0.3);
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
